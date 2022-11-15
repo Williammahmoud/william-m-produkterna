@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Swecar</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com"> 
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap" rel="stylesheet">
+<!--detta är grunden för sidan och innehåller grund filerna-->
+
+ <link rel="stylesheet" 
+href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- detta kopplar html med css-->
+
+</head>
+<body>
+<!-- allt inom body är det som kommer synas i sidan-->
+
+<div class="header">
+    
+<div class="container">
+        <div class="navbar">
+        <div class="logo">
+            <img src="imgs/3eac3f6993d64b54b24e4bcb87e59727-2-removebg-preview.png" width="125px">
+        </div>
+        <nav>
+        <ul id="MenuItems">
+            <li><a href=>Home</a></li>
+            <li><a href=>Products</a></li>
+            <li><a href=>About</a></li>
+            <li><a href=>Contact</a></li>
+            <li><a href=>Account</a></li>
+        </ul>
+    </nav>
+    <img src="imgs/shopping cart.png" width="30px" height="30px">
+    </div>
+  
+
+   
+    <!--detta är en container ger sidan en navigation bar med hjälp av class="navbar"+ namnen på navbarens innehåll
+    samt logga för sidan-->
+
+    <div class="row">
+     <div class="co-2">
+<h1>Looking for brand new cars for competetiv prices?<br>You`re in the right place!</h1>
+<p>We have the most luxurious cars in the industry.<br> Our team is available 24/7 to insure your complete satasfaction.</p>
+     <a href=""class="btn">Explore Now!&#8658;</a>
+</div>
+    <div class="co-2">
+    <img src="imgs/black_ferrari-removebg-preview.png">
+      </div>
+    </div>
+
+  <!--detta ger sidan en text som beskriver vad hemsidan innehåller med heading 1 
+samt en image för att göra sidan finare-->
+
+<!--categories är alltså en container med bilder på olika bilar bara för design-->
+ <div class="categories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="imgs/lambo.jpeg" >
+            </div>
+            <div class="col-3">
+                <img src="imgs/tate.webp" >
+            </div>
+            <div class="col-3">
+                <img src="imgs/rangepic.jpeg" >
+            </div>
+        </div>
+    </div>
+ </div>
+ 
+
+ <!--"featured vehicles" är en liten container 
+som visar vilka bilar finns och innehåller info om de som priset, namn och recension, sedan
+så la jag inn class title i header 2 för att sätta texten i mitten med css -->
+<div class="small-container">
+    <h2 class="title">Featured vehicles</h2>
+
+   <div class="row">
+<div class="col-4">
+    <img src="imgs/lamboselll.jpeg">
+    <h4>Lamborghini EVO 2022</h4>
+    <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+
+        </i>
+    </div>
+    <p>2.000.000kr</p>
+     </div>
+     <!---fa fa star är en recension som visar antalet sjärnor med hjälp av en av font-awesome
+sedan finns det bilens namn samt priset lite längre ner i form av paragraph och header-->
+<div class="col-4">
+    <img src="imgs/range evoque.jpeg">
+    <h4>range rover evoque 2022</h4>
+    <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+
+        </i>
+    </div>
+    <p>1.400.000kr</p>
+     </div>
+
+     <div class="col-4">
+        <img src="imgs/bentley.jpeg">
+        <h4>Bentley sport class 2022</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+    
+            </i>
+        </div>
+        <p>2.800.000kr</p>
+         </div>
+
+         <div class="col-4">
+            <img src="imgs/tesla-cybertruck-prototype-3d-model-obj-3ds-fbx-c4d-stl.jpeg">
+            <h4>Tesla Cyber truck 2022</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+        
+                </i>
+            </div>
+            <p>800.000kr</p>
+             </div>
+
+             <div class="col-4">
+                <img src="imgs/red ferra.jpeg">
+                <h4>Ferrari sport 2020</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+            
+                    </i>
+                </div>
+                <p>3.000.000kr</p>
+                 </div>
+
+   </div>
+   <h2 class="title">Latest vehicles</h2>
+   <div class="row">
+   <div class="col-4">
+    <img src="imgs/Bugatti chiron 2023.jpeg">
+    <h4>Bugatti chiron 2023</h4>
+    <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+
+        </i>
+    </div>
+    <p>38.000.000kr</p>
+     </div>
+
+     <div class="col-4">
+        <img src="imgs/mclaren p1.jpeg">
+        <h4>Mclaren p1 2023</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+    
+            </i>
+        </div>
+        <p>11.550.000r</p>
+         </div>
+
+         <div class="col-4">
+            <img src="imgs/drakogte.jpeg">
+            <h4>Drako GTE 2023</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+        
+                </i>
+            </div>
+            <p>14.200.000r</p>
+             </div>
+        </div>
+
+</div>
+
+
+<!--ny rad för recensioner-->
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Just got my car last week and it came just as expected, really great service!</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    </i>
+                </div>
+                <img src="imgs/user.png">
+                <h3>Andreas Le Cante</h3>
+            </div>
+            <div class="col-3">
+
+                <i class="fa fa-quote-left"></i>
+                <p>Recieved my cybertruck before release date and its just awesome!</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    </i>
+                </div>
+                <img src="imgs/elon3d.jpeg">
+                <h3>Elon Musk</h3>
+            </div>
+
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>The car is so good I cant stop riding it everywhere, even if its just across the road!</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    </i>
+                </div>
+                <img src="imgs/lana.jpeg">
+                <h3>Lana Rhoades</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--märken-->
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="imgs/lambologo.png" >
+            </div>
+
+            <div class="col-5">
+                <img src="imgs/ferrarilogo.png" >
+            </div>
+
+            <div class="col-5">
+                <img src="imgs/audilogo.png" >
+            </div>
+
+            <div class="col-5">
+                <img src="imgs/landrover.png" >
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--ny del som kommer vara sidans footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download the app!</h3> 
+                <P>Download the app for 24/7 support available on IOS and android!</P>
+                <div class="app-logo">
+                    <img src="imgs/app store.png">
+                    <img src="imgs/googleplay.png">
+                </div>
+            </div>
+
+            <div class="footer-col-2">
+                <img src="imgs/3eac3f6993d64b54b24e4bcb87e59727-2-removebg-preview.png">
+                <P>Our goal is to stay on the top of our game and satisfy 100% of our customers!</P>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Deals</li>
+                    <li>News</li>
+                    <li>Insurance</li>
+                    <li>Membership</li>
+                </ul>
+            </div>
+
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <P class="Copyright"> Copyright 2022 - Swecar</P>
+    </div>
+    </div>
+    </div>
+
+</div>

@@ -6,7 +6,7 @@
 }
 
 /*  man kan säga att detta är animationens kommand*/
-@keyframes example {
+@keyframes fade {
   from {background-color: radial-gradient(#ffffff,#000000);}
   to {background-color: rgb(126, 106, 106);}
 }
@@ -16,8 +16,8 @@ div {
   width: unset;
   height: unset;
   background-color:radial-gradient(#ffffff,#000000);
-  animation-name: example;
-  animation-duration: 5s;
+  animation-name: fade;
+  animation-duration: 1s;
   animation-direction: reverse;
 }
 

@@ -85,19 +85,32 @@ p{
   line-height: 60px;
   margin: 25px 0;
 }
-.btn{
+.btn-2{
   display: inline-block;
   background: rgb(171, 9, 9);
   color:rgb(255, 255, 255);
   padding: 8px 30px;
   margin: 30px 0;
   border-radius: 30px;
+  transition:  0.5s;
+}
+.btn-3{
+  display: inline-block;
+  background-color: rgb(230, 230, 230);
+  color:rgb(0, 0, 0);
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
   transition: background 0.5s;
+  font-weight: 700;
 }
 /* detta ger en viss färg med hjälp av background,color och transition som gör att det 
 färgen ändrar sig när man pekar på knappen, samt en viss storlek för knappen*/
-.btn:hover{
+.btn-2:hover{
   background: #563434;
+}
+.btn-3:hover{
+  background: #c0c0c0;
 }
 /* detta är färgen som knappen ändras till*/
 .header{
@@ -174,7 +187,7 @@ font-size: 14px;
 }
 
 .col-4:hover{
-  transform: translateY(-5px);
+  transform: translateY(-10px);
 }
 
 /*testimonial allt under detta bestämmer hur "recesnionerna" ser ut*/
@@ -232,9 +245,11 @@ font-size: 14px;
 
 
 /*---footer---*/
-.footer{
+.footer-1{
+  margin-left: -150px;
+  width: 1500px;
   background: rgb(255, 255, 255);
-  color: rgba(0, 0, 0, 0.645);
+  color:black;
   font-size: 14px;
   padding: 60px 0 20px;
 }
@@ -297,3 +312,56 @@ select{
 selcet:focus{
   outline: none;
 }
+.col-69{
+  margin-right: 900px;
+}
+
+
+.col-420{
+  margin-top: -60px;
+  display: flex;
+position: relative;
+bottom: 400px;
+  margin-left: 550px;
+
+}
+ 
+.text-96{
+  margin-left: -200px;
+   margin-top: 270px;
+   text-align: start;
+ 
+ }
+
+ .row69{
+  margin-top: -300px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+ }
+
+ /*enskild produkt detalj*/
+ .single-product{
+  margin-top:40px;
+ }
+ .single-product .col-69{
+  padding: 20px;
+ }
+ .single-product .col-420{
+  padding: 40px;
+ }
+/*hur mycket plats bilden har*/
+
+ .single-product h4{
+  margin: 10px 0;
+  font-size: 22px;
+  font-weight: bold;
+ }
+
+ .single-product select{
+  display: block;
+  padding: 10px;
+  margin-top: 20px;
+ }
+ 
